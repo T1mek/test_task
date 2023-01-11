@@ -1,0 +1,49 @@
+.header{
+  margin-top: 30px  ;
+  color: white;
+  height: 1080px  ;
+  .search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+
+    }
+    input{
+      margin-top: 15px;
+      width: 300px;
+      border-radius: 10px;
+      height: 30px;
+      padding: 5px  ;
+    }
+    input:focus{
+border: none  ;
+    }
+
+  }
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    ol{
+      li{
+        margin-top : 30px;
+        font-size: 20px ;
+        @media (max-width: 950px) {
+          font-size: 15px ;
+        }
+        @media (max-width: 750px) {
+          font-size: 10px ;
+        }
+
+        p{
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  }
+
+
+

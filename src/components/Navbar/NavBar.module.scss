@@ -1,0 +1,17 @@
+.wrapper{
+    height: 113px;
+
+    background-color: #1A0B2E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 300px ;
+    @media (max-width: 950px) {
+        gap: 150px;
+    }
+.nav{
+    color: white;
+    text-decoration: none  ;
+}
+}

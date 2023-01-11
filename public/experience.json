@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "title": "Магазин пиццерии",
+      "stack": "React Typescript Redux toolkit SCSS"
+    },
+    {
+      "id": 1,
+      "title": "Онлайн кинотеатр",
+      "stack": "React Typescript Redux toolkit SCSS"
+    },
+    {
+      "id": 2,
+      "title": "Cобственный блог с авторизацией",
+      "stack": "React Typescript Redux toolkit SCSS Node js Express"
+    },
+    {
+      "id": 3,
+      "title": "Приложения для создания встреч (с использвонием видео конференций)",
+      "stack": "React Typescript Redux toolkit SCSS Material UI"
+    },
+    {
+      "id": 4,
+      "title": "Создание графиков",
+      "stack": "Angular Typescript Chart JS SCSS"
+    }
+  ]
+}

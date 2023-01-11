@@ -1,0 +1,44 @@
+.header{
+  margin-top: 30px  ;
+  color: white;
+
+  h1{
+    font-size: 80px ;
+    text-align: center;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 41px;
+    grid-row-gap: 37px;
+    @media (max-width: 950px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @media (max-width: 1250px) {
+      grid-row-gap: 30px;
+    }
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3{
+    font-size: 30px ;
+    text-align: center;
+  }
+  p,img,span{
+    margin-top: 15px  ;
+  }
+  p{
+    width: 350px;
+  }
+
+
+  img{
+    height: 400px;
+    width: 450px;
+  }
+}
+  }
+}
